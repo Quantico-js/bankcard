@@ -14,7 +14,7 @@ body {
 .card {
     width: 506px;
     height: 319px;
-    background: rgba(255, 0, 0, 1);
+    background: rgb(205, 32, 32);
     border-radius: 30px;
     backdrop-filter: blur(30px);
     box-shadow: 0 15px 25px rgba(0, 0, 0, 0.2);
@@ -63,6 +63,7 @@ body {
     width: 80px;
     top: 93px;
     right: 120px;
+    
 }
 
 .girocard {
