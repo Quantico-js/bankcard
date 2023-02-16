@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: radial-gradient(#0b4733, #56408a);
+}
+
+.card {
+    width: 506px;
+    height: 319px;
+    background: rgba(255, 0, 0, 0.708);
+    border-radius: 30px;
+    backdrop-filter: blur(30px);
+    box-shadow: 0 15px 25px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    border-bottom: solid 50px white;
+}
+
+.banktype {
+    color: black;
+    font-size: 20px;
+    font-family: monospace;
+    position: absolute;
+    left: 100px;
+    top: 30px;
+}
+
+.n {
+    content: '\A';
+    white-space: pre; 
+}
+
+.bank {
+    position: absolute;
+    width: 50px;
+    top: 15px;
+    left: 15px;
+}
+
+.chip {
+    position: absolute;
+    width: 80px;
+    top: 85px;
+    left: 40px;
+}
+
+.contactless {
+    position: absolute;
+    width: 40px;
+    top: 100px;
+    left: 120px;
+    filter:invert()
+}
+
+.maestro {
+    position: absolute;
+    width: 80px;
+    top: 93px;
+    right: 120px;
+}
+
+.girocard {
+    position: absolute;
+    width: 80px;
+    top: 85px;
+    right: 40px;
+}
+
+.name {
+    color: black;
+    font-size: 20px;
+    font-family: monospace;
+    position: absolute;
+    left: 20px;
+    bottom: 60px;
+}
+
+.number {
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: monospace;
+    position: absolute;
+    left: 20px;
+    bottom: -25px;
+}
+
+.due {
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: monospace;
+    position: absolute;
+    right: 20px;
+    bottom: -25px;
+}
